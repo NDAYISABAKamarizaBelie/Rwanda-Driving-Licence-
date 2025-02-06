@@ -1,0 +1,61 @@
+*{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-decoration: none;
+}
+.header{
+	width: 90%;
+	height: 150px;
+	margin-left: 5%;
+	margin-top: 10px;
+	background-color: rgb(6, 0, 35);
+}
+.navbar ul{
+	list-style: none;
+	display: flex;
+}
+.navbar ul li{
+	margin-top: 100px;
+	margin-left: 130px;
+}
+.navbar a{
+	font-size: 25px;
+	color:white;
+}
+.submenu ul {
+	width: 8%;
+	background-color: rgb(6, 0, 35);
+	margin-left: -3%;
+	
+}
+.submenu ul li a{
+	text-align: center;
+}
+.navbar ul li .submenu ul{
+	display: list-item;
+	position: absolute;
+	list-style: none;
+}
+.navbar ul li .submenu ul li{
+	display: none;
+}
+.navbar ul li:hover .submenu ul li{
+	display: block;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+.content{
+	height: 560px;
+	width: 90%;
+	margin-left: 5%;
+}
+input[type="text"], input[type="number"], input[type="Date"],{
+	height: 50%;
+	width: 50px;
+}
+.footer{
+	height: 60px;
+	width: 90%;
+	margin-left: 5%;
+	background-color: rgb(6, 0, 35);
+	color: white;
+}
